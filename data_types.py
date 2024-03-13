@@ -1,9 +1,11 @@
+import math
+
+
 # Sting data types
 # literal assignments
 
 first = 'Wondwosen'
 last = 'Asegid'
-
 
 # checking the type of  data
 # x = 47
@@ -60,11 +62,10 @@ multiline += '              '
 multiline = '               ' + multiline
 print(len(multiline))
 
-
 # building a new menu
 
 title = 'menu'.upper()
-newTitle = title.center(47,'*')
+newTitle = title.center(47, '*')
 #
 # print(newTitle)
 # print('coffee'.ljust(25, '.') + '$1'.rjust(4,' ' ))
@@ -74,20 +75,40 @@ newTitle = title.center(47,'*')
 
 # string index values
 print(first[0])  # the first letter of the string
-print(first[-1]) # the last letter of the string
-print(first[1:]) # starts from the second and goes up to the last letter of the string
-
+print(first[-1])  # the last letter of the string
+print(first[1:])  # starts from the second and goes up to the last letter of the string
 
 # Some methods return boolean data
 print(first.startswith('W'))
 print(first.endswith('W'))  # This shi* is case-sensitive
 
+# Boolean data type
+myValue = True
+x = bool(False)
+print(type(x))  # type checkin
+print(isinstance(x, bool))  # returns a bool value after comparison
 
+# Numeric data types
 
+# Integer Type
+price = 100
+bestPrice = int(80)  # constructor function
 
+print(isinstance(bestPrice, int))
 
+# Float Type
+gpa = 4.887
+y = float(5.3)
+print(isinstance(y, float))
 
+# Complex type
+compValue = 5 + 7j
+print(type(compValue))
+print(compValue.real)
+print(compValue.imag)
 
-
-
-
+# Built-in-functions
+print(abs(gpa))  # absolute value
+print(round(gpa, 1))  # rounding
+print(math.pi)  # pi from the math class
+print(math.sqrt(64))
