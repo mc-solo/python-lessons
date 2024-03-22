@@ -112,3 +112,13 @@ print(abs(gpa))  # absolute value
 print(round(gpa, 1))  # rounding
 print(math.pi)  # pi from the math class
 print(math.sqrt(64))
+
+
+# Casting a string to a number
+zipcode = '10001'
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# Error if you attempt to cast incorrect data
+# zip_value = int('Mc_solo')
+
