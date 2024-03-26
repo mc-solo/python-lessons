@@ -5,7 +5,23 @@
 
 age = int(input("Please, enter your age: "))
 
-if age >= 18:
+if age <= 18:
     print("You're signed up!")
+elif age >= 100:
+    print("Your too old to sign up")
 else:
     print("grow tf up!!!")
+
+
+# we can check more statements using the elif- a short for else if
+
+
+###############################################################################################
+
+
+response = input("Would you like to get a dring? \n")
+
+if response == "yes":
+    print("Have Iced Tea")
+else:
+    print("No drink for you ungreatful mf")
