@@ -148,3 +148,15 @@ numbers = [2, 4, 6]
 # Tuples
 # ordered collection of items enclosed within parentheses
 point = (21, 47)
+
+# Dictionary(dict)
+# unordered  collection of key-value pairs enclosed within curly braces
+person = {"name": "Alice", "age": 30}
+
+# set
+# unordered collection of unique items enclosed within curly braces
+person = {
+    1,
+    3,
+    5,
+}
