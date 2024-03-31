@@ -180,3 +180,12 @@ mixed_tuple = (True, "True", 1)
 
 # This's a nested tuple
 nested_tuple = ((1, 2), ("a", "b"), ("foo", "bar"))
+
+
+# Tuple unpacking
+# allows to assign the individual elements of a tuple to separate variables in a single statement
+
+coordinates = (2, 4)
+x, y = coordinates
+print("x coordinate:", x)
+print("y coordinate:", y)
