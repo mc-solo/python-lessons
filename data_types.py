@@ -163,3 +163,20 @@ person = {
 
 
 # Tupples are immutable
+student = ("bro", 21, "male")
+count_bro = student.count("bro")
+print(count_bro)
+
+
+# single element tuple
+single_element_tuple = (47,)  # the comma is important
+print(type(single_element_tuple))
+
+# can contain multiple elements
+fruits = ("apple", "bannana")
+
+# can contain different data types
+mixed_tuple = (True, "True", 1)
+
+# This's a nested tuple
+nested_tuple = ((1, 2), ("a", "b"), ("foo", "bar"))
