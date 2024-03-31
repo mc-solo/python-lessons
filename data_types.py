@@ -189,3 +189,9 @@ coordinates = (2, 4)
 x, y = coordinates
 print("x coordinate:", x)
 print("y coordinate:", y)
+
+
+# Lists are like arrays but very versatile and flexible.
+mixed_lists = [1, "Hello", True, "[1, 2, 3]"]
+ml_type = type(mixed_lists)
+print(ml_type)
