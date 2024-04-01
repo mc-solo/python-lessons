@@ -253,6 +253,24 @@ print(name_nums)
 # they can take multiple data types
 
 my_list = [1, "z", 2, "y"]
+second_list = ["l", "i", "s", "t"]
+
 # my_list = list(...)
 
 print(my_list)
+
+# list manipulation
+
+my_list.append(2)
+# use the insert method to put elements at a specific index
+
+my_list.insert(2, "apple")
+print(my_list)
+
+# pop() and remove() elements from the list
+# concatenation can be done using + or the extend() method
+
+combined_list = my_list + second_list
+print(combined_list)
+
+# to remove repeated elements, you can convert lists into sets and then convert it back to a list
