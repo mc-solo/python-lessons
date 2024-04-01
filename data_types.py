@@ -218,3 +218,31 @@ print(uniques)
 my_set = {"a", "b", "c", 1, 2, 3}
 
 print("Is z in the set? ", "z" in my_set)
+length = len(my_set)
+print(length)
+
+nums = {10, 20, 30, 40}
+letters = {"x", "y", "z"}
+names = {"John", "Betty", "Natty"}
+
+nums.add(90)  # adds 90 to nums
+print(nums)
+
+
+letters.remove("z")  # removes 'z' from the letters
+print(letters)
+
+# sets support mathematical opetations
+
+joined_set = letters.union(nums)  # performs a union operation
+print(joined_set)
+
+# can use the | operator for union
+
+name_nums = nums | names
+print(name_nums)
+
+# | - union
+# & - intersection
+# - - difference( relative complement)
+# ^ - symmetric difference
