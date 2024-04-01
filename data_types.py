@@ -289,3 +289,15 @@ car = {"make": "toyota", "hp": "747"}  # defining a dictionary
 # accessing values of a dictionary
 print(car)
 print(car["make"])
+
+
+# adding a new key-value pair into the dic
+
+car["engine"] = "V12"
+print(car)
+
+# removing a key-value pair
+# use the 'del' keyword
+
+del car["hp"]
+print(car)
