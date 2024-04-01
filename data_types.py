@@ -246,3 +246,13 @@ print(name_nums)
 # & - intersection
 # - - difference( relative complement)
 # ^ - symmetric difference
+
+
+# lists are ordered collection of elements in python
+# they are indexed
+# they can take multiple data types
+
+my_list = [1, "z", 2, "y"]
+# my_list = list(...)
+
+print(my_list)
