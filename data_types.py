@@ -195,3 +195,14 @@ print("y coordinate:", y)
 mixed_lists = [1, "Hello", True, "[1, 2, 3]"]
 ml_type = type(mixed_lists)
 print(ml_type)
+
+
+# sets are unordered collection of unique elements in python.
+# you can perform various mathematical operation on sets
+# like union, intersection or a difference
+# sets are mutable
+# use the constructor set() or curly braces to define a set
+
+
+set1 = {1, 2, 3, 4, 5}
+print(type(set1))
