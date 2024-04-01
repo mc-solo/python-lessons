@@ -206,3 +206,15 @@ print(ml_type)
 
 set1 = {1, 2, 3, 4, 5}
 print(type(set1))
+
+
+numbers = [1, 1, 1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5]
+uniques = set(numbers)  # a set constructor
+print(uniques)
+
+
+# test for membership in python set
+
+my_set = {"a", "b", "c", 1, 2, 3}
+
+print("Is z in the set? ", "z" in my_set)
