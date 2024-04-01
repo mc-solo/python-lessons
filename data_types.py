@@ -274,3 +274,18 @@ combined_list = my_list + second_list
 print(combined_list)
 
 # to remove repeated elements, you can convert lists into sets and then convert it back to a list
+
+# ############################################################################################
+# Dictionaries
+
+# Dictionaries are mutable and unordered collection of key-value pairs
+# AKA hash tables(maps) or associative arrays in other programming langs
+
+my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
+print(my_dict)
+
+car = {"make": "toyota", "hp": "747"}  # defining a dictionary
+
+# accessing values of a dictionary
+print(car)
+print(car["make"])
