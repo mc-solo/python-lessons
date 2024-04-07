@@ -1,3 +1,4 @@
-import calculations
+import calculations as calc  # as an alias to calc
 
-print(calculations.is_prime(10))
+
+print(calc.is_prime(10))
