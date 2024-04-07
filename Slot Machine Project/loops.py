@@ -22,3 +22,26 @@ for i in range(25, 0, -5):
 
 numbers = list(range(2, 10))
 print(numbers)
+
+print("################################")
+
+for i in numbers:
+    print(i)
+
+print("################################")
+count = 0
+
+while count < 5:
+    print(count)
+    count += 1
+print("while loop done")
+
+print("################################")
+# break and continue
+
+for i in range(10):
+    if i == 3:
+        continue
+    if i == 7:
+        break
+    print(i)
