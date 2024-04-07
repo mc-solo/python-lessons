@@ -19,7 +19,7 @@ else:
 ###############################################################################################
 
 
-response = input("Would you like to get a dring? \n")
+response = input("Would you like to get a drink? \n")
 
 if response == "yes":
     print("Have Iced Tea")
