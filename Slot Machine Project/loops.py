@@ -45,3 +45,9 @@ for i in range(10):
     if i == 7:
         break
     print(i)
+
+# nested loops
+
+for i in range(4):
+    for j in range(2):
+        print(i, j)
