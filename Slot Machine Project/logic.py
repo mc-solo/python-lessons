@@ -7,7 +7,11 @@ def deposit():
             if amount > 0:
                 break
             else:
-                print("Aamount must be greater than 0.")
+                print("Amount must be greater than 0.")
         else:
             print("Please, enter a number.")
     return amount
+
+
+def main():
+    balance = deposit()
