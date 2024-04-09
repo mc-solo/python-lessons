@@ -1,6 +1,13 @@
+import random
+
 MAX_LINES = 3  # global const for the max number of lines
 MAX_BET = 10
 MIN_BET = 2
+
+ROWS = 3
+COLS = 3
+
+symbol_count = {"A": 2, "B": 4, "C": 6, "D": 8}
 
 
 # Get amount from the user
