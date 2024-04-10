@@ -1,0 +1,10 @@
+Name: Wondwosen Asegid
+Age: 21
+Occupation: Developer and Speculator
+Height: 1.68 cm
+weight: 55kg
+Interested in: science, economics, tech, math, movies
+
+'The quick brown fox jumps over the lazy dog.'
+
+
