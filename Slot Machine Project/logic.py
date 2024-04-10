@@ -16,9 +16,6 @@ def get_slot_machine_spin():
         all_symbols.extend([symbol] * count)
 
 
-re
-
-
 # Get amount from the user
 def deposit():
     while True:
