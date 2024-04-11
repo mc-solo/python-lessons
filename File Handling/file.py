@@ -10,6 +10,5 @@ reader = open(file_path, "r")
 # print(reader.readline())
 # print(reader.readline(3))
 
-
 my_file = open("File Handling\\script.py", "w")
 my_file.write('print("Im a newly created py script")')
