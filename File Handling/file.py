@@ -8,5 +8,6 @@ reader = open(file_path, "r")
 
 
 # readline() reads the first line of the text data
-
-print(reader.readline())
+# numbers can be passed as parameters to define the # of chars we want to print
+# print(reader.readline())
+# print(reader.readline(3))
