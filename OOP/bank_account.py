@@ -8,4 +8,4 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance = self.balance + amount
-        print(f"Deposit completed. Account {self.name} has ${self.amount:.2f}")
+        print(f"Deposit completed. Account {self.name} has ${self.balance:.2f}")
